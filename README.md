@@ -3,3 +3,4 @@ Zadanie 8 - ŚiNWO
  
 ddd
 dw
+dwa 
