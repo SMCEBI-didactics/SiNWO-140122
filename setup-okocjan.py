@@ -7,5 +7,6 @@ setup(
     author="okocjan",
     author_email="oskar.kocjan@smcebi.edu.pl",
     license="MIT",
-    packages=['Module']
+    packages=['Module'],
+    entry_points={'console_scripts': ['zadanie8-okocjan = Module.func:time']}
 )
