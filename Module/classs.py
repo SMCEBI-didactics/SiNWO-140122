@@ -3,6 +3,10 @@
 
 class Vector():
     """
+    Klasa reprezentująca trójwymiarowy wektor.
+
+    Notes:
+        Początkowe wartości wymiarów wynoszą 0.
     """
     def __init__(self):
         self.x = 0
@@ -11,6 +15,12 @@ class Vector():
 
     def add(self, x, y, z):
         """
+        Metoda dodająca do składowych wektora podane wartości.
+
+        Args:
+            x (num): wymiar x,
+            y (num): wymiar z,
+            z (num): wymiar z,
         """
         self.x += x
         self.y += y
