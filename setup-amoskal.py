@@ -1,4 +1,4 @@
-from setuptools import find_packages
+from setuptools import setup
 
 setup(
     name='setup-file',
@@ -6,5 +6,8 @@ setup(
     description='short description of setup file',
     author='Adrian Moskal',
     author_email='adrian.moskal@smcebi.edu.pl',
-    packages=['Module']
+    packages=['Module'],
+    entry_points={
+        'console_scripts': ['zadanie8-amoskal = modul.func:time']
+        }
 )
