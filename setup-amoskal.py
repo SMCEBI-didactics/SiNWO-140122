@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='setup-file',
+    name='setup-amoskal',
     version='1.0.0',
     description='short description of setup file',
     author='Adrian Moskal',
