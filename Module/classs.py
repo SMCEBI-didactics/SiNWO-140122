@@ -1,8 +1,6 @@
-
-
-
 class Vector():
     """
+    Klasa pelniaca role wektora z 3 skladowymi
     """
     def __init__(self):
         self.x = 0
@@ -11,6 +9,7 @@ class Vector():
 
     def add(self, x, y, z):
         """
+        Funkcja ktora dodaje wektory
         """
         self.x += x
         self.y += y
